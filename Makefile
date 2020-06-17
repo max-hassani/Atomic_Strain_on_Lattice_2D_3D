@@ -3,8 +3,8 @@
 CC = g++
 CFLAGS = -Wall -g 
 #-------------------------------------
-myPro: p_vec_ten.o main.o 
-	${CC} ${CFLAGS} p_vec_ten.o main.o -o myPro
+strain_map.X: p_vec_ten.o main.o 
+	${CC} ${CFLAGS} p_vec_ten.o main.o -o strain_map.X
 
 p_vec_ten.o: p_vec_ten.cc p_vec_ten.hh
 	${CC} ${CFLAGS} -c p_vec_ten.cc

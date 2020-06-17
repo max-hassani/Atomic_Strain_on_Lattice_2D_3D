@@ -22,10 +22,3 @@ ostream &operator<< (ostream &ostr, const p_ten2 &tensor) {
 
     return ostr;
   }
-
-
-
-
-
-
-
