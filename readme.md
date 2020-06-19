@@ -28,16 +28,16 @@ All this information is included in the input file, the path of which is given a
 **Structure of input file**  
 The input file shoud include the following lines:  
 
-`t_init=<value>
-t_step=<value>
-num_times=<value>  
-NRPART=<value>
-cut_off=<value>
-dump_path=<value>
-periodicity=<value>
-normalized_coordinate=<value>
-proj_plane=<value>
-save_3D=<value>
+`t_init=<value>  
+t_step=<value>  
+num_times=<value>    
+NRPART=<value>  
+cut_off=<value>  
+dump_path=<value>  
+periodicity=<value>  
+normalized_coordinate=<value>  
+proj_plane=<value>  
+save_3D=<value>  
 `   
 
 1) The value for t_init is an integer, which represents the initial timestep, you wish your analysis starts from. This will reflect itself in the name of the dump files, as mentioned above.  
