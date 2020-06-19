@@ -5,7 +5,7 @@ This code can be used as a post-processing step to analyze the deformation in an
 The code assumes that you have a series of dump files from MD simulation of LAMMPS. LAMMPS is an opensource parallel MD package. You can find more information on MD simulation and LAMMPS in their website (https://lammps.sandia.gov/).
 
 **Building**  
-This code includes four essential files: main.cpp, p_vec_ten.hh, p_vec_ten.cc and a Makefile. In a bash terminal, you can simply type `make` to build the code. Here, we assumed that you apply this command in the directory where you have the four aforementioned files.
+This package includes four essential files: main.cpp, p_vec_ten.hh, p_vec_ten.cc and a Makefile. In a bash terminal, you can simply type `make` to build the code. Here, we assumed that you apply this command in the directory where you have the four aforementioned files.
 
 **Running the code**  
 To run the code, first, you need an input file. As an example, the main folder includes a file called "inputfile.txt". You need to pass to the code as an argument, the path to your input file.   
